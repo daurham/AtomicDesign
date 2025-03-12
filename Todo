@@ -1,0 +1,8 @@
+TODO LIST:
+- [x] Figure out a better global Config systhem, possibly a store?
+- [ ] Impliment the +layout and routes
+- [x] Watch more on Atomic design 
+- [ ] Look into backend / connecting to a server, preferably in nodejs
+- [ ] Create a Molecule
+- [ ] Create an Organism
+- [ ] Make a template repo for future use & post on Github

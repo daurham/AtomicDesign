@@ -1,0 +1,32 @@
+$themes: (
+  dark: (
+    --bg-1: #242424, // background
+    --color-1: #474747, //
+    --color-2: #342d29,
+    --color-3: #cfad50,
+    --color-4: #805d28,
+    --color-5: #49432bde,
+    --color-6: #ffffffde,
+  ),
+  light: (
+    --bg-1: #d1d1d1, // background
+    --color-1: #aea5a5, // 
+    --color-2: #8f8f8f,
+    --color-3: #000000,
+    --color-4: #6059a8,
+    --color-5: #4e0807,
+    --color-6: #4e0807,
+  )
+);
+
+[theme='light'] {
+  @each $key, $value in map-get($themes, light) {
+    #{$key}: #{$value};
+  }
+}
+
+[theme='dark'] {
+  @each $key, $value in map-get($themes, dark) {
+    #{$key}: #{$value};
+  }
+}
